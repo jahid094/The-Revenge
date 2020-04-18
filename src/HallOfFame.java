@@ -55,7 +55,7 @@ public class HallOfFame extends javax.swing.JFrame {
         getContentPane().add(back, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 590, 230, 70));
 
         background.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/HallOfFame .jpg"))); // NOI18N
-        getContentPane().add(background, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+        getContentPane().add(background, new org.netbeans.lib.awtextra.AbsoluteConstraints(-90, 20, -1, -1));
 
         setBounds(0, 0, 1360, 700);
     }// </editor-fold>//GEN-END:initComponents

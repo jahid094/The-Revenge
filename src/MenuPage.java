@@ -139,6 +139,9 @@ public class MenuPage extends javax.swing.JFrame {
 
     private void playActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_playActionPerformed
         // TODO add your handling code here:
+        this.setVisible(false); 
+        new loadingscreen().setVisible(true);
+        new loadingscreen().t.start();
     }//GEN-LAST:event_playActionPerformed
 
     /**
